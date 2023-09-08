@@ -1,6 +1,7 @@
 #  0
 color="blue"
 
+print(color)
 #  1
 
 pi = 3.14159 # approximate
@@ -10,21 +11,21 @@ radius=diameter/2
 
 area=pi*(radius*radius)
 
+print(area)
 # 2
 
 a = [1, 2, 3]
 b = [3, 2, 1]
-q2.store_original_ids()
 
 c=a
 a=b
 b=c
 
+print(a, b, c)
 #  3a
-(5 - 3) // 2
-
+print((5 - 3) // 2)
 #  3b
-8 - 3 * 2 - (1 + 1)
+print(8 - 3 * 2 - (1 + 1))
 
 #  3b
 
@@ -34,4 +35,4 @@ carol_candies = 109
 
 all_candies =(alice_candies + bob_candies + carol_candies)
 to_smash = (all_candies % 3)
-print ()
+print (to_smash)

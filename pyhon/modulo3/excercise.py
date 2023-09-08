@@ -7,7 +7,7 @@ def sign(n):
     elif (n==0):
         a = 0
     return a
-print(a)
+print(sign)
 
 #2
 def to_smash(total_candies):
@@ -17,21 +17,17 @@ def to_smash(total_candies):
     >>> to_smash(91)
     1
     """
-    if (total_candies % 3 ==1):
-        print("Splitting", total_candies, "candy")
+    if total_candies == 1:
+        print("Splitting 1 candy")
     else:
-         print("Splitting", total_candies, "candies")
-    return total_candies % 3
+        print("Splitting", total_candies, "candies")
+
+    print("Splitting", total_candies, "candy" if total_candies == 1 else "candies")
 
 to_smash(91)
-to_smash(1)
+print(to_smash(1))
 
-if total_candies == 1:
-    print("Splitting 1 candy")
-else:
-    print("Splitting", total_candies, "candies")
 
-print("Splitting", total_candies, "candy" if total_candies == 1 else "candies")
 
 #3
 
@@ -61,6 +57,7 @@ def is_negative(number):
 def concise_is_negative(number):
     return (True if number<0 else False)# Your code goes here (try to keep it to one line!)
 
+print(concise_is_negative(1))
 #5a
 
 def wants_all_toppings(ketchup, mustard, onion):
