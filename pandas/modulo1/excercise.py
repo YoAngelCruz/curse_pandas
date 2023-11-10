@@ -1,5 +1,5 @@
 import pandas as pd
-reviews = pd.read_csv("./winer.csv", index_col=0)
+reviews = pd.read_csv("../winer.csv", index_col=0)
 pd.set_option("display.max_rows", 5)
 # 1
 
@@ -33,7 +33,7 @@ print(ingredients)
 
 #4
 
-reviews = pd.read_csv('../input/wine-reviews/winemag-data_first150k.csv', index_col=0)
+reviews = pd.read_csv('../winer.csv', index_col=0)
 
 # Check your answer
 print(reviews)
